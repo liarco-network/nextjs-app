@@ -1,5 +1,6 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
+import HelloWorld from '../components/HelloWorld/HelloWorld'
 import styles from '../styles/Home.module.scss'
 
 const Home: NextPage = () => {
@@ -12,9 +13,7 @@ const Home: NextPage = () => {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          Hello world!
-        </h1>
+        <HelloWorld />
       </main>
     </div>
   )
